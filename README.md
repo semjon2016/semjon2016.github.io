@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+0.1
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
