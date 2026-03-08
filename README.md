@@ -1,4 +1,3 @@
-<h1>0.3b</h1>
 <html lang="uk">
 <head>
 <meta charset="UTF-8">
@@ -257,6 +256,6 @@ renderCards();
 renderCards();
 
 </script>
-
+<h1>0.3b</h1>
 </body>
 </html>
