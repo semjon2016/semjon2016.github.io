@@ -256,6 +256,5 @@ renderCards();
 renderCards();
 
 </script>
-<h1>0.3b</h1>
 </body>
 </html>
