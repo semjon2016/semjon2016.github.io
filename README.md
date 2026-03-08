@@ -29,7 +29,7 @@ border:none;
 border-radius:6px;
 background:#007BFF;
 color:white;
-cursor:pointer;
+cursor:pointer;                                                            /*---вирізать*/
 }
 
 button:hover{
@@ -42,7 +42,7 @@ grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
 gap:20px;
 }
 
-/* FLIP CARD */
+/* переворот */
 
 .flip-card{
 background:transparent;
@@ -84,7 +84,7 @@ transform:rotateY(180deg);
 background:#eef;
 }
 
-/* TEST MODE */
+/* тестування */
 
 #testMode{
 display:none;
@@ -140,7 +140,6 @@ border-radius:10px;
 <script>
 
 let cardsData=[
-
 ["Коли почалася Перша світова війна?","1 серпня 1914"],
 ["Що таке ГУР?","Головна Українська Рада, К.Левицький, Львів, 1 серпня 1914"],
 ["Що таке СВУ?","Союз визволення України, Д. Донцов, М. Залізняк, Львів, серпень 1914"],
@@ -172,8 +171,6 @@ let cardsData=[
 ["Четверта радянсько українська війна","січень - червень 1919"]
 ["Рамки радянсько польської війни","14 лютого - 18 березня 1921"]
 ["Другий зимовий похід","жовтень-листопад 1921"]
-["",""]
-["",""]
 ];
 
 let current=0;
